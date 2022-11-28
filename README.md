@@ -1,3 +1,11 @@
+# Zomato_Clone
+
+
+![output_img3](https://user-images.githubusercontent.com/119164318/204296389-0bd012d4-2205-4e27-9293-873641673b0b.jpg)
+![output_img2](https://user-images.githubusercontent.com/119164318/204296365-bf349abd-9f01-4743-b15e-d218f2a148c6.jpg)
+![output_img1](https://user-images.githubusercontent.com/119164318/204296330-94acfa53-9305-45d9-a6d3-5ba5adb271c3.jpg)
+
+
 
 # Getting Started with Create React App
 
