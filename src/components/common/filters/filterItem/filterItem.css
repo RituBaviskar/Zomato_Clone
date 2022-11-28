@@ -1,0 +1,23 @@
+#root{
+    --primary-box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    --primary-bg: rgb(255, 255, 255);
+    --border-white: rgb(232, 232, 232);
+    --zomato-red: #ff7e8b;
+    --zomato-gray: #828282;
+    --gray: rgb(207, 207, 207);
+    --filter-text:#9c9c9c;
+}
+
+.filter-item{
+    padding: 8px;
+    display: flex;
+    background: var(--primary-bg);
+    color: var(--filter-text);
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    margin: 10px 10px 10px 0px;
+    font-size: 14px;
+}
+.filter-name{
+    margin-left: 5px;
+}

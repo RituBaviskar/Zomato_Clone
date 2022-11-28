@@ -1,0 +1,68 @@
+#root{
+  --primary-box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  --primary-bg: rgb(255, 255, 255);
+  --gray: rgb(207, 207, 207);
+  --zomato-red: #ff7e8b;
+  --zomato-gray: #828282;
+  --border-white: rgb(232, 232, 232);
+  --inactive-color: #f8f8f8;
+  --inactive-text: #696969;
+  --filter-text: #9c9c9c;
+  --secondary-bg: #f8f8f8;
+  --heading-text: #1c1c1c;
+  --collection-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+  --tag-red: #d92662;
+  --tag-blue: #256fef;
+  --tag-green: #24963f;
+  --subtitle-text: #363636;
+  --bg-gradient: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85% 
+  );
+}
+.absolute-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.cur-po{
+    cursor: pointer;
+}
+
+.tab-options{
+    box-shadow: var(--border-white) 0px -0.5px 0px inset;
+}
+.options-wrapper{
+    display: flex;
+}
+.tab-item {
+    margin-right: 24px;
+    padding: 12px 12px 20px 12px;
+  }
+  .tab-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: var(--inactive-text);
+  }
+  .tab-image-container{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: var(--inactive-color);
+  }
+  .tab-image{
+    height: 30px;
+    width: 30px;
+  }
+  
+.active-tab {
+    border-bottom: 2px solid var(--zomato-red);
+  }
+  
+  .active-tab .tab-name {
+    color: var(--zomato-red);
+  }
